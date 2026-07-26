@@ -1,0 +1,35 @@
+
+/* TV바로 2026 UI refresh — inspired by clean Korean commerce information layouts */
+:root{--tv-primary:#4b5fe9;--tv-primary-dark:#3548ce;--tv-text:#171a23;--tv-muted:#687386;--tv-line:#e4e8ef;--tv-bg:#f7f8fb;--tv-card:#fff;--tv-radius:16px;--tv-shadow:0 8px 28px rgba(30,42,80,.08)}
+html{scroll-behavior:smooth}body{font-family:Pretendard,"Noto Sans KR","Apple SD Gothic Neo",Inter,Arial,sans-serif!important;color:var(--tv-text);background:var(--tv-bg)!important;letter-spacing:-.015em}
+a{transition:color .18s ease,background-color .18s ease,border-color .18s ease,transform .18s ease}
+.site-header{background:#fff!important;border-bottom:1px solid var(--tv-line);box-shadow:0 2px 12px rgba(30,42,80,.035)}
+.site-logo a,.site-branding a{font-weight:800!important;letter-spacing:-.03em}
+.main-navigation a{font-weight:700!important;color:#2a2f3c!important}
+.main-navigation .current-menu-item>a,.main-navigation a:hover{color:var(--tv-primary)!important}
+.ltv-directory-hero{border-radius:22px!important;background:linear-gradient(135deg,#ffffff 0%,#f0f3ff 100%)!important;border:1px solid #e0e5ff!important;padding:34px!important;box-shadow:var(--tv-shadow)!important}
+.ltv-eyebrow{color:var(--tv-primary)!important;font-weight:800!important;letter-spacing:.08em}
+.ltv-title{font-size:clamp(30px,4vw,48px)!important;letter-spacing:-.045em!important}
+.ltv-search{border:1px solid #dce2ec!important;border-radius:14px!important;min-height:52px!important;padding:0 18px!important;background:#fff!important;box-shadow:0 3px 12px rgba(25,38,75,.05)!important}
+.ltv-cat-nav{border-radius:16px!important;padding:10px!important;border:1px solid var(--tv-line)!important;box-shadow:0 4px 18px rgba(25,38,75,.05)!important}
+.ltv-cat-nav button{border-radius:11px!important;font-weight:750!important;padding:9px 15px!important}
+.ltv-cat-nav button:hover,.ltv-cat-nav button.is-active{background:var(--tv-primary)!important;border-color:var(--tv-primary)!important}
+/* Keep card size readable; only reduce whitespace between category sections */
+.home .ltv-cat,.page-id-50 .ltv-cat{padding-bottom:13px!important}
+.home .ltv-cat+.ltv-cat,.page-id-50 .ltv-cat+.ltv-cat{padding-top:13px!important}
+.home .ltv-cat-title,.page-id-50 .ltv-cat-title{margin-bottom:10px!important}
+.home .ltv-grid,.page-id-50 .ltv-grid{gap:8px!important}
+.home .ltv-card,.page-id-50 .ltv-card{min-height:98px!important;padding:10px 6px 9px!important;gap:6px!important;border-radius:14px!important}
+.home .ltv-logo-box,.page-id-50 .ltv-logo-box{width:42px!important;height:42px!important}
+.home .ltv-logo,.page-id-50 .ltv-logo{width:30px!important;height:30px!important}
+.home .ltv-name,.page-id-50 .ltv-name{font-size:12px!important;line-height:1.25!important}
+.ltv-card{border-color:#dfe4ec!important;box-shadow:0 4px 14px rgba(30,42,80,.045)!important}
+.ltv-card:hover{border-color:#aeb9ff!important;transform:translateY(-2px)!important;box-shadow:0 10px 24px rgba(49,68,160,.12)!important}
+.ltv-btn,.button,.wp-element-button,.ltv-official-link{border-radius:13px!important;background:var(--tv-primary)!important;color:#fff!important;font-weight:800!important;box-shadow:0 7px 18px rgba(75,95,233,.22)!important}
+.ltv-btn:hover,.button:hover,.wp-element-button:hover,.ltv-official-link:hover{background:var(--tv-primary-dark)!important;transform:translateY(-1px)}
+.ltv-art,.ltv-detail-section,.tv-content-block{border:1px solid var(--tv-line)!important;border-radius:18px!important;background:#fff!important;box-shadow:0 5px 20px rgba(30,42,80,.045)!important}
+.tv-content-block{padding:24px;margin:24px 0}.tv-content-block h2{margin-top:0;font-size:22px}.tv-content-block h3{font-size:17px;margin:20px 0 8px}.tv-content-block p,.tv-content-block li{line-height:1.8;color:#3f4858}.tv-content-block ul{padding-left:1.2em}
+.tv-trust-row{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:18px 0}.tv-trust-item{padding:16px;border-radius:14px;background:#f4f6ff;border:1px solid #e2e6ff}.tv-trust-item strong{display:block;margin-bottom:5px;color:#2d3fc4}
+.site-info{background:#171b26!important;color:#c9cfdb!important;border-top:0!important}.inside-site-info{padding:0!important}.copyright-bar{width:100%!important}
+.tv-footer{max-width:1180px;margin:0 auto;padding:42px 24px 28px;display:grid;grid-template-columns:minmax(280px,1fr) auto;gap:34px 60px;align-items:start;text-align:left}.tv-footer-brand strong{display:block;color:#fff;font-size:21px;margin-bottom:8px}.tv-footer-brand p{max-width:600px;margin:0;color:#aeb7c7;line-height:1.7}.tv-footer-nav{display:flex;flex-wrap:wrap;justify-content:flex-end;gap:10px 22px;padding-top:3px}.tv-footer-nav a{color:#e7ebf3!important;font-weight:700;text-decoration:none!important}.tv-footer-nav a:hover{color:#9cafff!important}.tv-footer-copy{grid-column:1/-1;border-top:1px solid #303644;padding-top:18px;color:#8f99aa;font-size:13px}
+@media(max-width:760px){.ltv-directory-hero{padding:24px 18px!important}.tv-trust-row{grid-template-columns:1fr}.tv-footer{grid-template-columns:1fr;padding:34px 20px 24px}.tv-footer-nav{justify-content:flex-start}.home .ltv-cat,.page-id-50 .ltv-cat{padding-bottom:10px!important}.home .ltv-cat+.ltv-cat,.page-id-50 .ltv-cat+.ltv-cat{padding-top:10px!important}}
