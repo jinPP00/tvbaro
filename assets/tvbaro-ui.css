@@ -33,3 +33,99 @@ a{transition:color .18s ease,background-color .18s ease,border-color .18s ease,t
 .site-info{background:#171b26!important;color:#c9cfdb!important;border-top:0!important}.inside-site-info{padding:0!important}.copyright-bar{width:100%!important}
 .tv-footer{max-width:1180px;margin:0 auto;padding:42px 24px 28px;display:grid;grid-template-columns:minmax(280px,1fr) auto;gap:34px 60px;align-items:start;text-align:left}.tv-footer-brand strong{display:block;color:#fff;font-size:21px;margin-bottom:8px}.tv-footer-brand p{max-width:600px;margin:0;color:#aeb7c7;line-height:1.7}.tv-footer-nav{display:flex;flex-wrap:wrap;justify-content:flex-end;gap:10px 22px;padding-top:3px}.tv-footer-nav a{color:#e7ebf3!important;font-weight:700;text-decoration:none!important}.tv-footer-nav a:hover{color:#9cafff!important}.tv-footer-copy{grid-column:1/-1;border-top:1px solid #303644;padding-top:18px;color:#8f99aa;font-size:13px}
 @media(max-width:760px){.ltv-directory-hero{padding:24px 18px!important}.tv-trust-row{grid-template-columns:1fr}.tv-footer{grid-template-columns:1fr;padding:34px 20px 24px}.tv-footer-nav{justify-content:flex-start}.home .ltv-cat,.page-id-50 .ltv-cat{padding-bottom:10px!important}.home .ltv-cat+.ltv-cat,.page-id-50 .ltv-cat+.ltv-cat{padding-top:10px!important}}
+
+
+/* === TV바로 final visual corrections 2026-07-26 === */
+/* Dark home hero restored */
+.home .ltv-directory-hero,
+.page-id-50 .ltv-directory-hero{
+  background:linear-gradient(135deg,#161b27 0%,#26324f 58%,#35446d 100%)!important;
+  border-color:#344363!important;
+  box-shadow:0 20px 44px -28px rgba(8,15,35,.72)!important;
+}
+.home .ltv-directory-hero .ltv-title,
+.page-id-50 .ltv-directory-hero .ltv-title{color:#fff!important}
+.home .ltv-directory-hero p,
+.page-id-50 .ltv-directory-hero p{color:#cbd3e3!important}
+.home .ltv-directory-hero .ltv-eyebrow,
+.page-id-50 .ltv-directory-hero .ltv-eyebrow{color:#9fb0ff!important}
+
+/* Slightly smaller cards; category section rhythm stays compact */
+.home .ltv-card,.page-id-50 .ltv-card{
+  min-height:88px!important;
+  padding:8px 5px 7px!important;
+  gap:5px!important;
+}
+.home .ltv-logo-box,.page-id-50 .ltv-logo-box{width:38px!important;height:38px!important}
+.home .ltv-logo,.page-id-50 .ltv-logo{width:27px!important;height:27px!important}
+.home .ltv-name,.page-id-50 .ltv-name{font-size:11.7px!important}
+
+/* Center category button labels vertically and horizontally */
+.ltv-cat-nav button{
+  display:inline-flex!important;
+  align-items:center!important;
+  justify-content:center!important;
+  min-height:44px!important;
+  line-height:1!important;
+  padding:0 16px!important;
+  text-align:center!important;
+}
+
+/* AJD-like primary actions: explicit selectors override old black button rules */
+.ltv-detail-cta .ltv-cta,
+.ltv-detail-watch,
+.ltv-detail-side .ltv-side-link{
+  display:inline-flex!important;
+  align-items:center!important;
+  justify-content:center!important;
+  min-height:52px!important;
+  padding:0 24px!important;
+  border:1px solid #4b5fe9!important;
+  border-radius:13px!important;
+  background:#4b5fe9!important;
+  color:#fff!important;
+  font-family:inherit!important;
+  font-size:15px!important;
+  font-weight:800!important;
+  line-height:1!important;
+  text-decoration:none!important;
+  box-shadow:0 8px 20px rgba(75,95,233,.24)!important;
+}
+.ltv-detail-side .ltv-side-link{width:100%!important;padding-left:14px!important;padding-right:14px!important}
+.ltv-detail-cta .ltv-cta:hover,
+.ltv-detail-watch:hover,
+.ltv-detail-side .ltv-side-link:hover{
+  background:#3548ce!important;
+  border-color:#3548ce!important;
+  color:#fff!important;
+  transform:translateY(-1px)!important;
+}
+
+/* New channel section stays inside the same content width and visual system */
+.ltv-detail-section,
+.tv-content-block.tv-channel-specific{
+  width:auto!important;
+  max-width:none!important;
+  margin:18px 0 0!important;
+  padding:28px 30px!important;
+  border:1px solid #dfe4ec!important;
+  border-radius:14px!important;
+  background:#fff!important;
+  box-shadow:0 4px 16px rgba(30,42,80,.045)!important;
+  font-family:inherit!important;
+}
+.tv-content-block.tv-channel-specific h2{margin:0 0 18px!important;font-size:22px!important;line-height:1.35!important;letter-spacing:-.03em!important}
+.tv-content-block.tv-channel-specific .tv-trust-row{margin:0!important;grid-template-columns:repeat(3,minmax(0,1fr))!important}
+.tv-content-block.tv-channel-specific .tv-trust-item{min-height:150px;padding:18px!important;border-radius:13px!important}
+.tv-content-block.tv-channel-specific .tv-trust-item strong{font-size:15px!important;line-height:1.4!important}
+.tv-content-block.tv-channel-specific .tv-trust-item span{display:block;color:#394355!important;font-size:14px!important;line-height:1.75!important}
+.tv-channel-help{margin-top:20px;padding-top:18px;border-top:1px solid #e4e8ef}
+.tv-channel-help h3{margin:0 0 8px!important;font-size:17px!important}
+.tv-channel-help p{margin:0!important;font-size:14px!important;line-height:1.8!important}
+
+@media(max-width:760px){
+  .home .ltv-card,.page-id-50 .ltv-card{min-height:82px!important}
+  .tv-content-block.tv-channel-specific{padding:22px 18px!important}
+  .tv-content-block.tv-channel-specific .tv-trust-row{grid-template-columns:1fr!important}
+  .tv-content-block.tv-channel-specific .tv-trust-item{min-height:0}
+}
