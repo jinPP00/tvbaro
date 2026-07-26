@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="TV바로">
-  <rect width="64" height="64" rx="16" fill="#18233f"/>
+  <rect width="64" height="64" rx="16" fill="#5570d9"/>
   <rect x="12" y="15" width="40" height="30" rx="8" fill="#ffffff"/>
-  <path d="M29 23.5 41 30l-12 6.5z" fill="#ff6b4a"/>
+  <path d="M29 23.5 41 30l-12 6.5z" fill="#ff7657"/>
   <path d="M24 51h16" stroke="#ffffff" stroke-width="4" stroke-linecap="round"/>
 </svg>
