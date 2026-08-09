@@ -61,14 +61,14 @@ html{overflow-y:scroll!important}
 .ltv-rel h2+.ltv-rel-note{margin:0 0 14px}
 .ltv-rel-note{color:var(--muted);font-size:.94rem}
 .ltv-rel-grid{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 26px}
-.ltv-rel-item{display:inline-flex;align-items:center;padding:8px 14px;border:1px solid var(--line);
+.ltv-rel .ltv-rel-item{display:inline-flex;align-items:center;padding:8px 14px;border:1px solid var(--line);
  border-radius:999px;background:var(--surface);color:var(--ink);font-size:.94rem;
  font-weight:600;text-decoration:none;transition:.15s}
-.ltv-rel-item:hover{border-color:var(--primary);color:var(--primary);
+.ltv-rel .ltv-rel-item:hover{border-color:var(--primary);color:var(--primary);
  box-shadow:0 2px 10px rgba(79,97,220,.12)}
 .ltv-rel-links{margin:0;padding:0;list-style:none;display:grid;gap:8px}
 .ltv-rel-links li{margin:0}
-.ltv-rel-links a{display:block;padding:12px 14px;border:1px solid var(--line);border-radius:10px;
+.ltv-rel .ltv-rel-links a{display:block;padding:12px 14px;border:1px solid var(--line);border-radius:10px;
  background:var(--surface);color:var(--ink);text-decoration:none;font-size:.96rem;transition:.15s}
-.ltv-rel-links a:hover{border-color:var(--primary);color:var(--primary)}
+.ltv-rel .ltv-rel-links a:hover{border-color:var(--primary);color:var(--primary)}
 .ltv-rel-links a::before{content:"› ";color:var(--primary);font-weight:700}
