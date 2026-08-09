@@ -1,0 +1,112 @@
+# tvbaro (실시간TV 보기)
+
+> 지상파·종합편성·뉴스·스포츠·케이블·홈쇼핑 등 국내 TV 채널의 **공식 실시간 시청 경로**를 정리해 안내하는 한국어 정보 사이트입니다.
+> 영상을 직접 송출하지 않으며, 방송사와 공식 플랫폼이 제공하는 합법적인 경로만 링크합니다.
+
+## 사이트 성격
+
+- 운영 주체: tvbaro (비공식 정보 사이트, 방송사와 제휴 관계 없음)
+- 언어: 한국어 (ko-KR)
+- 수록 채널: 45개
+- 정보 범위: 채널별 공식 시청 경로, 편성 특징, 시청 방법, 자주 묻는 질문
+- 한계: 편성·로그인·이용권·지역 제한은 각 서비스 정책에 따라 변경될 수 있으며 최종 확인은 공식 서비스에서 해야 합니다.
+
+## 채널 안내
+
+### 지상파 (8개)
+
+- [KBS1 온에어](https://tvbaro.kr/channel/kbs1/): 지상파 채널의 공식 실시간 시청 경로 안내
+- [KBS2 온에어](https://tvbaro.kr/channel/kbs2/): 지상파 채널의 공식 실시간 시청 경로 안내
+- [MBC 온에어](https://tvbaro.kr/channel/mbc/): 지상파 채널의 공식 실시간 시청 경로 안내
+- [SBS 온에어](https://tvbaro.kr/channel/sbs/): 지상파 채널의 공식 실시간 시청 경로 안내
+- [EBS1 온에어](https://tvbaro.kr/channel/ebs1/): 지상파 채널의 공식 실시간 시청 경로 안내
+- [EBS2 온에어](https://tvbaro.kr/channel/ebs2/): 지상파 채널의 공식 실시간 시청 경로 안내
+- [EBS 키즈](https://tvbaro.kr/channel/ebs-kids/): 지상파 채널의 공식 실시간 시청 경로 안내
+- [OBS](https://tvbaro.kr/channel/obs/): 지상파 채널의 공식 실시간 시청 경로 안내
+
+### 종합편성 (6개)
+
+- [채널A](https://tvbaro.kr/channel/channel-a/): 종합편성 채널의 공식 실시간 시청 경로 안내
+- [TV조선](https://tvbaro.kr/channel/tv-chosun/): 종합편성 채널의 공식 실시간 시청 경로 안내
+- [JTBC](https://tvbaro.kr/channel/jtbc/): 종합편성 채널의 공식 실시간 시청 경로 안내
+- [MBN](https://tvbaro.kr/channel/mbn/): 종합편성 채널의 공식 실시간 시청 경로 안내
+- [YTN](https://tvbaro.kr/channel/ytn/): 종합편성 채널의 공식 실시간 시청 경로 안내
+- [연합뉴스TV](https://tvbaro.kr/channel/yonhapnews-tv/): 종합편성 채널의 공식 실시간 시청 경로 안내
+
+### 뉴스 (9개)
+
+- [SBS 뉴스](https://tvbaro.kr/channel/sbs-news/): 뉴스 채널의 공식 실시간 시청 경로 안내
+- [SBS Biz](https://tvbaro.kr/channel/sbs-biz/): 뉴스 채널의 공식 실시간 시청 경로 안내
+- [KBS24](https://tvbaro.kr/channel/kbs24/): 뉴스 채널의 공식 실시간 시청 경로 안내
+- [매일경제TV](https://tvbaro.kr/channel/mk-tv/): 뉴스 채널의 공식 실시간 시청 경로 안내
+- [서울경제TV](https://tvbaro.kr/channel/sen-tv/): 뉴스 채널의 공식 실시간 시청 경로 안내
+- [토마토TV](https://tvbaro.kr/channel/tomato-tv/): 뉴스 채널의 공식 실시간 시청 경로 안내
+- [한국경제TV](https://tvbaro.kr/channel/hankyung-tv/): 뉴스 채널의 공식 실시간 시청 경로 안내
+- [이데일리TV](https://tvbaro.kr/channel/edaily-tv/): 뉴스 채널의 공식 실시간 시청 경로 안내
+- [MBC뉴스](https://tvbaro.kr/channel/mbc-news/): 뉴스 채널의 공식 실시간 시청 경로 안내
+
+### 스포츠 (3개)
+
+- [SBS 스포츠](https://tvbaro.kr/channel/sbs-sports/): 스포츠 채널의 공식 실시간 시청 경로 안내
+- [SBS 골프](https://tvbaro.kr/channel/sbs-golf/): 스포츠 채널의 공식 실시간 시청 경로 안내
+- [JTBC GOLF&SPORTS](https://tvbaro.kr/channel/jtbc-golf/): 스포츠 채널의 공식 실시간 시청 경로 안내
+
+### 케이블 (11개)
+
+- [tvN](https://tvbaro.kr/channel/tvn/): 케이블 채널의 공식 실시간 시청 경로 안내
+- [tvN SHOW](https://tvbaro.kr/channel/tvn-show/): 케이블 채널의 공식 실시간 시청 경로 안내
+- [Mnet](https://tvbaro.kr/channel/mnet/): 케이블 채널의 공식 실시간 시청 경로 안내
+- [OCN](https://tvbaro.kr/channel/ocn/): 케이블 채널의 공식 실시간 시청 경로 안내
+- [MBC 드라마](https://tvbaro.kr/channel/mbc-drama/): 케이블 채널의 공식 실시간 시청 경로 안내
+- [MBC 에브리원](https://tvbaro.kr/channel/mbc-every1/): 케이블 채널의 공식 실시간 시청 경로 안내
+- [MBC M](https://tvbaro.kr/channel/mbc-m/): 케이블 채널의 공식 실시간 시청 경로 안내
+- [SBS 플러스](https://tvbaro.kr/channel/sbs-plus/): 케이블 채널의 공식 실시간 시청 경로 안내
+- [SBS FunE](https://tvbaro.kr/channel/sbs-fune/): 케이블 채널의 공식 실시간 시청 경로 안내
+- [KBSN 드라마](https://tvbaro.kr/channel/kbsn-drama/): 케이블 채널의 공식 실시간 시청 경로 안내
+- [KBS WORLD](https://tvbaro.kr/channel/kbs-world/): 케이블 채널의 공식 실시간 시청 경로 안내
+
+### 홈쇼핑 (5개)
+
+- [현대홈쇼핑](https://tvbaro.kr/channel/hyundai-hs/): 홈쇼핑 채널의 공식 실시간 시청 경로 안내
+- [GS SHOP](https://tvbaro.kr/channel/gs-shop/): 홈쇼핑 채널의 공식 실시간 시청 경로 안내
+- [CJ온스타일](https://tvbaro.kr/channel/cj-onstyle/): 홈쇼핑 채널의 공식 실시간 시청 경로 안내
+- [홈앤쇼핑](https://tvbaro.kr/channel/hns/): 홈쇼핑 채널의 공식 실시간 시청 경로 안내
+- [K쇼핑](https://tvbaro.kr/channel/k-shop/): 홈쇼핑 채널의 공식 실시간 시청 경로 안내
+
+### 기타 (3개)
+
+- [KTV 국민방송](https://tvbaro.kr/channel/ktv/): 기타 채널의 공식 실시간 시청 경로 안내
+- [CGN 온에어](https://tvbaro.kr/channel/cgn/): 기타 채널의 공식 실시간 시청 경로 안내
+- [CCTV-4](https://tvbaro.kr/channel/cctv4/): 기타 채널의 공식 실시간 시청 경로 안내
+
+## 시청 가이드 칼럼
+
+- [재난·속보 상황에서 신뢰할 수 있는 방송 확인법](https://tvbaro.kr/columns/breaking-news-check/)
+- [스포츠·골프 중계 무료로 챙겨보는 현실적인 방법](https://tvbaro.kr/columns/free-sports-golf/)
+- [무료 실시간 TV와 유료 OTT, 어디서 구분해야 할까](https://tvbaro.kr/columns/free-tv-vs-ott/)
+- [종합편성채널 4사 차이: 채널A·TV조선·JTBC·MBN](https://tvbaro.kr/columns/general-channels/)
+- [실시간 TV가 재생되지 않을 때 확인할 7가지](https://tvbaro.kr/columns/live-tv-troubleshooting/)
+- [경제·증시 방송 활용법: 장 시작 전 무엇을 볼까](https://tvbaro.kr/columns/market-news-routine/)
+- [스마트폰 데이터 아끼며 실시간 방송 보는 방법](https://tvbaro.kr/columns/save-mobile-data/)
+- [지상파 실시간 TV 공식 시청 경로 정리: KBS·MBC·SBS·EBS](https://tvbaro.kr/columns/terrestrial-tv-guide/)
+- [지상파·종편·케이블·IPTV 차이 한 번에 이해하기](https://tvbaro.kr/columns/tv-channel-types/)
+- [부모님 스마트폰에 TV 채널 바로가기 만들어 드리는 법](https://tvbaro.kr/columns/tv-shortcut-for-parents/)
+- [스마트TV·크롬캐스트로 실시간 방송 연결하기](https://tvbaro.kr/columns/watch-on-smart-tv/)
+- [웨이브와 티빙 비교: 어떤 채널을 볼 수 있을까](https://tvbaro.kr/columns/wavve-vs-tving/)
+- [유튜브 24시간 뉴스 라이브를 안전하게 찾는 법](https://tvbaro.kr/columns/youtube-live-news/)
+- [24시간 뉴스 채널 고르기: YTN·연합뉴스TV·KBS24](https://tvbaro.kr/columns/news-channel-24h/)
+- [PC와 노트북으로 실시간 방송 편하게 보는 법](https://tvbaro.kr/columns/watch-on-pc/)
+
+## 운영 정보
+
+- [사이트 소개](https://tvbaro.kr/about/)
+- [저작권 안내](https://tvbaro.kr/copyright/): 영상 저작권은 각 방송사·플랫폼에 있습니다
+- [이용약관](https://tvbaro.kr/terms/)
+- [개인정보처리방침](https://tvbaro.kr/privacy/)
+- [문의·정정 요청](https://tvbaro.kr/contact/)
+
+## 인용 시 유의사항
+
+- 채널의 무료 여부, 로그인 필요 여부는 시기와 프로그램에 따라 달라집니다. 단정적으로 인용하지 마세요.
+- 경제·증시 방송 관련 내용은 참고 정보이며 투자 자문이 아닙니다.
+- 본 사이트는 비공식 재송출 경로를 안내하지 않습니다.
