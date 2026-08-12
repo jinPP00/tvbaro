@@ -96,3 +96,28 @@ html{overflow-y:scroll!important}
 .ltv-kw-sec .ltv-kwcat a{color:var(--primary);text-decoration:none;font-weight:600;font-size:.94rem}
 .ltv-kw-sec .ltv-kwcat a:hover{text-decoration:underline}
 @media (max-width:768px){.ltv-kw-sec{padding:24px 18px;border-radius:0;border-left:0;border-right:0}}
+
+/* Mobile readability: channel discovery is touch-first instead of a shrunken desktop grid. */
+@media(max-width:780px){
+ body{font-size:17px!important;line-height:1.7!important}
+ .ltv-cat-nav{gap:8px!important;padding-bottom:4px!important}
+ .ltv-cat-nav button{min-height:44px!important;padding:0 15px!important;font-size:14px!important;line-height:1!important}
+ .home .ltv-grid,.page-id-50 .ltv-grid{grid-template-columns:repeat(3,minmax(0,1fr))!important;gap:8px!important}
+ .home .ltv-card,.page-id-50 .ltv-card{min-height:112px!important;padding:12px 8px!important;gap:8px!important}
+ .home .ltv-logo-box,.page-id-50 .ltv-logo-box{width:48px!important;height:48px!important}
+ .home .ltv-logo,.page-id-50 .ltv-logo{width:36px!important;height:36px!important}
+ .home .ltv-name,.page-id-50 .ltv-name{font-size:14px!important;line-height:1.35!important;word-break:keep-all!important}
+ .ltv-cat-title .cnt{min-width:26px!important;min-height:26px!important;font-size:12px!important}
+ .ltv-art-x,.ltv-art-foot,.tv-footer-copy{font-size:14px!important;line-height:1.7!important}
+ .ltv-art>a{padding:18px!important}
+ .ltv-section-head a,.tv-footer-nav a{display:inline-flex!important;min-height:44px!important;align-items:center!important;font-size:14px!important}
+ .ltv-detail-titlebox p,.ltv-detail-main p,.ltv-faq-list details p,.ltv-detail-disclaimer{font-size:15px!important}
+ .ltv-detail-bc a{display:inline-flex!important;min-height:44px!important;align-items:center!important}
+ .ltv-detail-bc,.ltv-detail-chip,.ltv-side-card span,.single-post .entry-meta,.tv-column-page .entry-meta{font-size:14px!important}
+ .ltv-side-card strong,.tv-footer-brand p{font-size:15px!important}
+ .single-post .entry-content,.single-post .entry-content p,.single-post .entry-content li,
+ .tv-column-page .entry-content,.tv-column-page .entry-content p,.tv-column-page .entry-content li{font-size:16px!important;line-height:1.8!important}
+}
+@media(max-width:360px){
+ .home .ltv-grid,.page-id-50 .ltv-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important}
+}
