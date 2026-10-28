@@ -1,0 +1,11 @@
+.git
+.git/**
+.wrangler
+.wrangler/**
+.gitignore
+.gitattributes
+.assetsignore
+wrangler.jsonc
+*.md
+scripts
+scripts/**

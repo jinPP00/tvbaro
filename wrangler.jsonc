@@ -1,0 +1,10 @@
+{
+  // Cloudflare Workers 정적 자산 배포 설정 (2026-10-28 추가).
+  // 배포: npx wrangler versions upload → npx wrangler versions deploy <버전ID>@100%
+  // 이전 배포와 같은 설정이다. 도메인 연결은 대시보드 설정을 그대로 쓴다.
+  "name": "tvbaro",
+  "compatibility_date": "2026-08-12",
+  "assets": {
+    "directory": "./"
+  }
+}
