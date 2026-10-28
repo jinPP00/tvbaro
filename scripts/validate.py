@@ -8,7 +8,9 @@ import re, sys, io, os, glob, json, urllib.parse
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 os.chdir(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-files = [f.replace('\\', '/') for f in glob.glob('**/*.html', recursive=True) if '.git' not in f]
+# 검색엔진 소유 확인 파일(naver*.html, google*.html)은 페이지가 아니므로 검사하지 않는다
+files = [f.replace('\\', '/') for f in glob.glob('**/*.html', recursive=True)
+         if '.git' not in f and not re.fullmatch(r'(naver|google)[0-9a-z]+\.html', os.path.basename(f))]
 errors = []
 
 
